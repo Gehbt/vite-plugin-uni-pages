@@ -1,5 +1,5 @@
 import process from 'node:process'
-import { describe, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import { getPageFiles, resolveOptions } from '../packages/core/src'
 
 const options = resolveOptions({}, process.cwd())

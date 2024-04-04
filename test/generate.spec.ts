@@ -1,4 +1,4 @@
-import { describe, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import type { UserPagesConfig } from '../packages/core/src'
 import { PageContext } from '../packages/core/src'
 
